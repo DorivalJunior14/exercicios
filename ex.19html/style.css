@@ -1,0 +1,29 @@
+@charset "UTF-8"
+
+body{
+    background-color:rgb(68, 68, 197);
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(39, 128, 131);
+}
+h1#principal{
+    text-align: center;
+    background-color: blanchedalmond;
+}
+h2{
+    color: rgb(231, 117, 117);
+}
+.basico{
+    color: aqua;
+    font-size: bold;
+}
+.intermediario{
+    color: coral;
+    font-size: bold;
+}
+.avançado{
+    color: chartreuse;
+    font-size: bold;
+}
+/*tem mais exlicações nesta aula e fique atento em HTML id e=# EM CSS E O CLASS=.O ID É UNICO E PODE VIR ACOMPANHADO DE CLASS E O CLASS PODE TER MAIS DE UM*/ 
