@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas Grandes</title>
     <style>
-        body{
-            font-family: Arial, Helvetica, sans-serif;}
-        table{
-                width: 500 px;
-                border-collapse: collapse; }
-        td, th {
-                border: 1px solid black;
-                padding: 10px;} 
-         thead{
-                background-color: gray;
-                color: white;}   
-         </style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        table {
+            width: 500 px;
+            border-collapse: collapse;
+        }
+        
+        td,
+        th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        thead,
+        tfoot {
+            background-color: rgb(224, 19, 19);
+            color: white;
+        }
+        
+        td.numero {
+            text-align: right;
+        }
+    </style>
 </head>
+
 <body>
     <h1> uso de tabelas grandes</h1>
     <!--anatomia para tabelas grandes
@@ -28,23 +43,33 @@
     TBODY
     TR,TD,TH
     TFOOTER
-    TR,TD,TH -->
+    TR,TD,TH
+apebas uma cópia e foi consertado o erro -->
     <table>
         <thead>
             <th>Estado</th>
             <th>População</th>
         </thead>
+
         <tbody>
-            <td>São Paulo</td>
-            <td>45.919.049</td>
+            <tr>
+                <tr></tr>
+                <td>São Paulo</td>
+                <td class="numero">45.919.049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21.169.325</td>
+            </tr>
         </tbody>
         <tfoot>
-           
-            <th>Total de Habitantes</th>
-            <td>0000</td>
-           
+            <tr>
+                <th>Total de Habitantes</th>
+                <td>0000</td>
+            </tr>
         </tfoot>
-     </table>
-    
+    </table>
+
 </body>
+
 </html>
