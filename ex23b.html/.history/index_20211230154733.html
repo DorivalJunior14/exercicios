@@ -15,18 +15,6 @@
             border-collapse: collapse;
         }
         
-        tr.destaque {
-            background-color: gray;
-            color: white;
-        }
-        
-        td.destaque,
-        th.destaque {
-            background-color: brown;
-            color: black;
-            text-align: left;
-        }
-        
         th,
         td {
             border: 1px solid gray;
@@ -35,21 +23,19 @@
     </style>
 </head>
 
-
 <body>
 
     <h1>Desafio 14 com algo mais que não foi pedido</h1>
     <table>
         <thead>
-            <tr class="destaque">
+            <tr>
                 <th rowspan="2" scope="colgroup">Area</th>
-                <th rowspan="2" scope="colgroup">Disciplina</th>
+                <th rowspan="2" scope="colgroup">Diciplina</th>
                 <th colspan="2" scope="colgroup">Notas</th>
                 <th rowspan="2" scope="col">Media</th>
             </tr>
         </thead>
         <tbody>
-
             <tr>
                 <th rowspan="5" scope="rowgroup">Exatas</th>
 
@@ -78,9 +64,8 @@
                 <td>00</td>
             </tr>
             <tr>
-
-                <th class="destaque" scope="col" colspan="4">Média Exatas</th>
-                <td class="destaque">00</td>
+                <th colspan="4">Média Exatas</th>
+                <td>00</td>
             </tr>
             <tr>
                 <th rowspan="3" scope="rowgroup">Humanas</th>
@@ -98,8 +83,8 @@
                     <td>00</td>
                 </tr>
                 <tr>
-                    <th class="destaque" scope="col" colspan="4">Média Humanas</th>
-                    <td class="destaque">00</td>
+                    <th colspan="4">Média Humanas</th>
+                    <td>00</td>
                 </tr>
 </body>
 
