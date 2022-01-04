@@ -16,25 +16,33 @@
             border-collapse: collapse;
         }
         
+        thead {
+            background-color: aquamarine;
+            color: blueviolet;
+            padding: 1px;
+        }
+        
         caption {
-            font-size: 1 em;
+            font-size: 1, 5 em;
             font-weight: bolder;
             padding: 10px;
         }
         
+        tr,
         th,
         td {
-            border: 2px solid black;
+            border: 1px solid black;
             padding: 10px;
             text-align: center;
         }
         
-        tr :nth-child(even) {
+        tbody>tr:nth-child(even) {
             background-color: aqua;
+            color: brown;
         }
         
         div#container {
-            width: 80vh;
+            width: auto;
             overflow-x: auto;
         }
     </style>
@@ -143,9 +151,13 @@
                         <td>2</td>
                         <td>3</td>
                     </tr>
+
                 </tbody>
             </table>
         </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, necessitatibus voluptatem facilis pariatur deserunt, aut officia officiis velit quis tempora consectetur quos, tenetur nemo rem ullam similique architecto amet. Sint!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, necessitatibus voluptatem facilis pariatur deserunt, aut officia officiis velit quis tempora consectetur quos, tenetur nemo rem ullam similique architecto amet. Sint!</p>
 </body>
+
 
 </html>
