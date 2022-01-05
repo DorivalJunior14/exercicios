@@ -12,7 +12,6 @@
         }
         
         table {
-            width: 500px;
             border-collapse: collapse;
         }
         
@@ -28,7 +27,6 @@
             padding: 10px;
         }
         
-        tr,
         th,
         td {
             border: 1px solid black;
@@ -37,8 +35,8 @@
         }
         
         tbody>tr:nth-child(even) {
-            background-color: aqua;
-            color: brown;
+            background-color: lightcoral;
+            color: blue;
         }
         
         div#container {
@@ -59,25 +57,25 @@
                 <thead>
 
                     <tr>
-                        <th>Produtos</th>
-                        <th>Jan</th>
-                        <th>Fev</th>
-                        <th>Mar</th>
-                        <th>Abr</th>
-                        <th>Jun</th>
-                        <th>Jul</th>
-                        <th>Ago</th>
-                        <th>Ser</th>
-                        <th>Out</th>
-                        <th>Nov</th>
-                        <th>Dez</th>
-                        <th>Sobra</th>
+                        <th scope="col">Produtos</th>
+                        <th scope="col">Jan</th>
+                        <th scope="col">Fev</th>
+                        <th scope="col">Mar</th>
+                        <th scope="col"> Abr</th>
+                        <th scope="col">Jun</th>
+                        <th scope="col">Jul</th>
+                        <th scope="col">Ago</th>
+                        <th scope="col">Ser</th>
+                        <th scope="col">Out</th>
+                        <th scope="col">Nov</th>
+                        <th scope="col">Dez</th>
+                        <th scope="col">Sobra</th>
                     </tr>
                 </thead>
                 <tbody>
 
                     <tr>
-                        <td>Papel</td>
+                        <th scope="row">Papel</th>
                         <td>1</td>
                         <td>2</td>
                         <td>3</td>
@@ -92,7 +90,7 @@
                         <td>12</td>
                     </tr>
                     <tr>
-                        <td>Escova</td>
+                        <th scope="row">Escova</th>
                         <td>8</td>
                         <td>7</td>
                         <td>8</td>
@@ -107,7 +105,7 @@
                         <td>1</td>
                     </tr>
                     <tr>
-                        <td>Fio</td>
+                        <th scope="row">Fio</th>
                         <td>3</td>
                         <td>9</td>
                         <td>7</td>
@@ -122,7 +120,7 @@
                         <td>3</td>
                     </tr>
                     <tr>
-                        <td>Prato</td>
+                        <th scope="row">Prato</th>
                         <td>5</td>
                         <td>2</td>
                         <td>1</td>
@@ -137,7 +135,7 @@
                         <td>13</td>
                     </tr>
                     <tr>
-                        <td>Faca</td>
+                        <th scope="row">Faca</th>
                         <td>11</td>
                         <td>10</td>
                         <td>10</td>
