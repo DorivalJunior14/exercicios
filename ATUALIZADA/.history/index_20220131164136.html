@@ -12,23 +12,13 @@
         }
         
         table {
-            width: 800px;
             border-collapse: collapse;
-            position: relative;
         }
         
-        thead,
-        tfoot {
+        thead {
             background-color: aquamarine;
-            color: blue;
+            color: blueviolet;
             padding: 1px;
-        }
-        
-        thead>tr {
-            position: sticky;
-            top: 0;
-            background-color: blue;
-            color: aliceblue;
         }
         
         caption {
@@ -49,14 +39,14 @@
             color: blue;
         }
         
+        tfooter>tr {
+            background-color: antiquewhite;
+            color: black
+        }
+        
         div#container {
             width: auto;
             overflow-x: auto;
-        }
-        
-        tfoot>tr {
-            background-color: blue;
-            color: aliceblue;
         }
     </style>
 </head>
@@ -75,9 +65,10 @@
     </h4>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dignissimos nam asperiores placeat obcaecati ut explicabo velit maxime veniam rem labore cupiditate, sit optio fugiat eius tenetur amet exercitationem inventore?</p>
     <h5>Telefones p/contato 2</h5>
-
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat id dolor iure aliquam minus error, atque dolorem officia hic, voluptatum vel nostrum vero! Quidem magnam sit distinctio facilis quis doloremque.
+    </p>
     <h6>Comentarios</h6>
-
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eveniet possimus corporis quaerat vero eaque mollitia autem necessitatibus rerum quis illum, fugit modi quia, quibusdam accusamus veniam itaque numquam obcaecati?</p>
     <div id="container">
         <table>
             <caption>Tabela Atualizada de Preços</caption>
@@ -442,21 +433,22 @@
                     <td>0</td>
                     <td>0</td>
                     <td>0</td>
-                    <td>0</td>
+                    <td>1000</td>
                 </tr>
 
 
             </tbody>
-            <tfoot>
+            <footer>
                 <tr>
-                    <th scope="row" colspan="4">Total</th>
+                    <th colspan="4" scrow ">total</th>
                     <td>0</td>
+
+
                 </tr>
-            </tfoot>
+            </footer>
         </table>
     </div>
-    <P>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore impedit consequatur fugit, dolore vero adipisci cum fuga, asperiores voluptate repellat veniam facilis, distinctio dicta ut dolor commodi sapiente consectetur odit!</P>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, facere explicabo. Odio similique tempora nam expedita, dolor unde omnis, vero eligendi cupiditate sapiente sit aut, quasi quidem iusto aliquid asperiores!</p>
+
 </body>
 
 </html>
