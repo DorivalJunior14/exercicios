@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/*configurações gerais*/
+* {
+    margin: 0px;
+    padding: 0px;
+    fo
+}
+html, body {
+    width: 100vw;
+    height: 100vh;
+
+}
