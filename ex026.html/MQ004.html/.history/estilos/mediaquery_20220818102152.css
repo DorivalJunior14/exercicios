@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* todas as demais medias*/
+
+/*typical device breakpoints
+pequenas telas: até 600px
+celular:de 600px até 768px
+tablet:769px até 981px
+deshtop: 981px até 1200px
+grandes telas:acima de 1200px
+*/ 
+
+@media print {
+
+}
+@media  screen and (min-widht: 769px and (max-width: 981px)) {
+    
+}
+@media screen and (min-w) {
+    
+}

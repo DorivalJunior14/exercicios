@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* todas as demais medias*/
+
+/*typical device breakpoints
+celular
+tablet
+deshtop
+*/ 
+
+@media print {
+
+    
+}

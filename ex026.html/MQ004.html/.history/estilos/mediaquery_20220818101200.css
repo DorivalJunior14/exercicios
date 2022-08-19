@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* todas as demais medias*/
+
+/*typical device breakpoints
+pequenas telas: até 600px
+celular:de 
+tablet
+deshtop
+grandes telas
+*/ 
+
+@media print {
+
+    
+}
