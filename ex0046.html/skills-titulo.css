@@ -1,0 +1,10 @@
+.skills-titulo {
+   
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: space-around;
+    text-align: right;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}

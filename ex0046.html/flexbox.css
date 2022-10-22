@@ -1,0 +1,16 @@
+.title-container {
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+.title-network {
+    text-align: center;
+    background-image: url('minha.png');
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.title-network-item {
+    align-items: center;
+}
+

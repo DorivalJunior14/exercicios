@@ -1,0 +1,13 @@
+.title {
+    background: rgb(203, 203, 173);
+    color: brown;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.title-container > h2 > p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}

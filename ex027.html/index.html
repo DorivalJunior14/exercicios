@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="estilos/media-query.css">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
@@ -12,15 +13,34 @@
     <main>
         <section id="login">
             <div id="imagem">
-                <img id="imagem" src="imagens/pexels-channnsy-10346633.jpg">       
+                <img id="imagem"src="imagem/praia.jpg">      
+            </div> 
+                   
+
+                       
            <!--aqui vai a imagem nas css, como a foto não aparece coloquei uma linha a mais para a imagem entrar -->
-            </div>
+            
             <div id="formulario">
+
              <h1>Login</h1>
-             <P>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto incidunt temporibus aliquam. Necessitatibus dolorem officiis aut dolores nisi, eius laboriosam placeat pariatur sit voluptatem, illo velit voluptatibus corrupti, architecto harum.
+             <P>Seja bem vindo(a) novamente para fazer login e acessar a sua conta
+                
              </P>
-             <form action="login.php" method="post"></form>
+             <form action="login.php" method="post" autocomplette="on">
+             <div class="campo">
+                <i class="Material-simbols-outlined">arrumar aqui e na senha</i>
+                <input type="email" name="login" id="ilogin" placeholder="seu e-mail" autocomplette="email" required maxlength="30">
+                <label for="ilogin">Login</label>
+             </div>
+             <div class="campo">
+                
+                <input type="password" name="senha" id="isenha" placeholder="sua senha" autocomplette="senha" required minlenght="8" maxlength="20">
+                <label for="isenha">Senha</label>
+             </div>
+             <input type="submit" value="Entrar">
+             <a href="esqueci a senha" class="botao">
+                Esqueci a senha <i class="material-icon">mail</i>
+            </form>
             </div>
         </section>
     </main>
