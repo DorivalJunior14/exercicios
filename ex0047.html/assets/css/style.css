@@ -1,0 +1,89 @@
+/*caracteristiscas principais*/
+
+body {
+    font-family: raleway, sans-serif;
+    color: black;
+}
+h1 h2 {
+    font-family: raleway, sans-serif;
+    color: black;
+}
+/* navegação */
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: rgb(150, 113, 113);
+}
+nav > a {
+    color: aquamarine;
+    font-family: raleway, sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 15px 0;
+    width: 100%;
+    text-decoration: none;
+    color: aqua;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url("../casal-numa-montanha-de-presentes.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: rgb(51, 87, 119);
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    color: brown;
+}
+header p {
+    margin-bottom: 2 rem;
+}
+#sobre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 15px 15px;
+    background-color: green;
+    color: blanchedalmond;
+}
+#sobre h2 {
+    color: brown;
+    margin-bottom: 15px 15px;
+    max-width: 800px;
+}
+#procura {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px;
+}
+#mais {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
