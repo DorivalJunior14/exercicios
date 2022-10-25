@@ -3,10 +3,13 @@
 body {
     font-family: raleway, sans-serif;
     color: black;
+    text-align: center;
 }
-h1 h2 {
+h1 h2  {
     font-family: raleway, sans-serif;
     color: black;
+    border: bold;
+    
 }
 /* navegação */
 nav {
@@ -42,6 +45,7 @@ nav ul li a {
     text-decoration: none;
     color: red;
 }
+/* cabeçalho */
 header {
     display: flex;
     flex-direction: row;
@@ -60,16 +64,13 @@ header h1 {
 header p {
     margin-bottom: 2 rem;
 }
-
+/* body */
 #tipo {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 50px;
 }
-
-
-
 
 #procura {
     display: flex;
@@ -84,15 +85,20 @@ header p {
     padding: 50px;
     
 }
+/* contato*/
 #contato {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 50px;
 }
-#contato h2 {
-    color: black;
+#facilidade {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 50px;
 }
+/* footer */
 footer {
     text-align: center;
     padding: 15px;
