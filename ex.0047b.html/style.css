@@ -147,7 +147,14 @@ footer {
         max-width: 400px;
         margin: 0 auto;
     }
-
+    #faclidade {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+/* este foi pensado em acessibilidade para torna-lo mais pratico*/
 
 }
 
